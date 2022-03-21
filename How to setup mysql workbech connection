@@ -1,0 +1,26 @@
+Step to connect MySQL connection 
+
+
+Step 1 ===>>>  $ sudo mysql -u root -p;
+Step 2 ===>>>  Password: root
+Step 3 ===>>>  CREATE DATABASE root;
+Step 4 ===>>>  USE root;
+Step 3 ===>>>  CREATE USER 'Hitesh'@'localhost' IDENTIFIED BY 'Password@123';
+Step 4 ===>>>  GRANT ALL PRIVILEGES ON root.* TO 'Hitesh'@'localhost';
+
+
+
+
+          /* Now got to mqsql workbench and create a new connection with name Local instance 3306  */
+          
+          
+          |-----------------------------------------------------------------|
+          |  connection Name: Local instance 3306                           |
+          |  User Name : Hitesh                                             |
+          |  Password : Password@123                                        |
+          |                                                                 |
+          |                                                                 |
+          |                                                                 |
+          |                                                                 |
+          |                                                                 |
+          |-----------------------------------------------------------------|
