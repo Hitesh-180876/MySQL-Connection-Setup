@@ -14,13 +14,18 @@ Step 4 ===>>>  GRANT ALL PRIVILEGES ON root.* TO 'Hitesh'@'localhost';
           /* Now got to mqsql workbench and create a new connection with name Local instance 3306  */
           
           
-          |-----------------------------------------------------------------|
-          |  connection Name: Local instance 3306                           |
-          |  User Name : Hitesh                                             |
-          |  Password : Password@123                                        |
-          |                                                                 |
-          |                                                                 |
-          |          sudo mysql -u root -p                                  |
-          |          Password : exit                                        |
-          |                                                                 |
-          |-----------------------------------------------------------------|
+          |----------------------------------------------------------------|
+          |  connection Name: Local instance 3306                          |
+          |  User Name : Hitesh                                            |
+          |  Password : Password@123                                       |
+          |                                                                |
+          |                                                                |
+          |          sudo mysql -u root -p                                 |
+          |          Password : exit                                       |
+          |          new_connection : HiteshSharma                         |
+          |          Password : Password@1234                              |
+          |                                                                |
+          |                                                                |
+          |                                                                |
+          |                                                                |
+          |----------------------------------------------------------------|
