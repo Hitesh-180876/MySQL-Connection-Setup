@@ -33,7 +33,9 @@ Step 4 ===>>>  GRANT ALL PRIVILEGES ON root.* TO 'Hitesh'@'localhost';
 
 
 
-          mysql -u root -p
+        <!--  mysql -u root -p  -->
+          
+          Can use: sudo mysql 
           
           
           CREATE USER 'Hitesh'@'localhost' IDENTIFIED BY 'Password@1234';
