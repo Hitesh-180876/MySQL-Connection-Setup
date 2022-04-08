@@ -29,3 +29,24 @@ Step 4 ===>>>  GRANT ALL PRIVILEGES ON root.* TO 'Hitesh'@'localhost';
           |                                                                |
           |                                                                |
           |----------------------------------------------------------------|
+
+
+
+
+          mysql -u root -p
+          
+          
+          CREATE USER 'Hitesh'@'localhost' IDENTIFIED BY 'Password@1234';
+          
+          GRANT ALL PRIVILEGES ON *.* TO 'Hitesh'@'localhost' WITH GRANT OPTION;
+          
+          // Give all permissions to mysql workbench;
+          // create a new connection on mysql workbench
+          // Give Username as Hitesh
+          // Give Password as Password@1234
+          
+          
+          <!--       Enjoy!!  You have established the connection  -->
+          
+          
+          
